@@ -7,11 +7,15 @@
 */
 
 //CODE HERE
+let lovesCode = true
+if (lovesCode = true){
+  console.log('I love code')
+}else{ console.log("Coding has it's challenges")}
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29;
+var amysAge = 34;
 var brittanisAge = 34;
-var amysBirthYear = 1991;
+var amysBirthYear = 1986;
 var brittanisBirthYear = 1986;
 
 ////////// PROBLEM 2 //////////
@@ -23,6 +27,8 @@ var brittanisBirthYear = 1986;
 //CODE HERE
 if (brittanisAge < amysAge ){
   console.log(" Amy is older")
+} else if (brittanisAge === amysAge && amysBirthYear === brittanisBirthYear ){
+  console.log('They are the same age')
 }else{ 
   console.log(" Brittani is older")
 }
@@ -34,7 +40,7 @@ if (brittanisAge < amysAge ){
 
 //CODE HERE
 if (amysBirthYear === brittanisBirthYear){
-  console.log("they are not the same")
+  console.log("they are born the same year")
 }else{
   console.log(" They are not born the same year")
 }
